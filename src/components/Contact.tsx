@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { Send, Phone, Mail, MapPin, Loader2 } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
+
 
 interface FormState {
   name: string;

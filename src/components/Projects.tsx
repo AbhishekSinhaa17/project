@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
-import geminiImage from '../images/Gemini.png';
+import geminiImage from '../images/gemini.png';
 import pokemonImage from '../images/pokemon.png';
 import loanImage from '../images/loan calculator.png';
 
